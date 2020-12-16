@@ -1,10 +1,14 @@
-﻿using System.Collections.Generic;
+﻿using Microsoft.Extensions.Caching.Memory;
+using System;
+using System.Collections.Generic;
 using testeLocaliza.Domain.Exceptions;
 
 namespace testeLocaliza.Domain
 {
     public class Funcoes
     {
+        readonly MemoryCache _memoryCache = new MemoryCache(new MemoryCacheOptions());
+        
         /// <summary>
         /// Dado um número, é calculado os divisores desse número
         /// </summary>
@@ -41,11 +45,11 @@ namespace testeLocaliza.Domain
             return new Result<List<int>>(primos);
         }
 
-        private static List<int> CalculaDivisores(int numero)
+        private List<int> CalculaDivisores(int numero)
         {
             List<int> divisores = new List<int>();
 
-            if (numero == 0)
+            if (numero == 0 || _memoryCache.TryGetValue(numero, out divisores))
                 return divisores;
 
             if (numero < 0)
@@ -60,7 +64,7 @@ namespace testeLocaliza.Domain
             return divisores;
         }
 
-        private static List<int> CalculaDivisoresNumeroPositivo(int numero)
+        private List<int> CalculaDivisoresNumeroPositivo(int numero)
         {
             List<int> divisores = new List<int>();
 
@@ -73,10 +77,12 @@ namespace testeLocaliza.Domain
                     break;
             }
 
+            IncluirCache(_memoryCache, numero, divisores);
+
             return divisores;
         }
 
-        private static List<int> CalculaDivisoresNumeroNegativo(int numero)
+        private List<int> CalculaDivisoresNumeroNegativo(int numero)
         {
             List<int> divisores = new List<int>();
 
@@ -86,12 +92,22 @@ namespace testeLocaliza.Domain
                     divisores.Add(i);
             }
 
+            IncluirCache(_memoryCache, numero, divisores);
+
             return divisores;
         }
 
         private bool NumeroEhPrimo(List<int> divisores)
         {
             return divisores.Count == 2;
+        }
+        private static void IncluirCache(MemoryCache _memoryCache, int key, List<int> divisores)
+        {
+            var options = new MemoryCacheEntryOptions()
+                .SetSlidingExpiration(TimeSpan.FromHours(24));
+
+            // Save data in cache.
+            _memoryCache.Set(key, divisores, options);
         }
     }
 }
