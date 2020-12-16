@@ -1,0 +1,9 @@
+D:\Estudos\Localiza\testeLocaliza\testeLocaliza.Domain\bin\Debug\netcoreapp3.1\testeLocaliza.Domain.deps.json
+D:\Estudos\Localiza\testeLocaliza\testeLocaliza.Domain\bin\Debug\netcoreapp3.1\testeLocaliza.Domain.dll
+D:\Estudos\Localiza\testeLocaliza\testeLocaliza.Domain\bin\Debug\netcoreapp3.1\testeLocaliza.Domain.pdb
+D:\Estudos\Localiza\testeLocaliza\testeLocaliza.Domain\obj\Debug\netcoreapp3.1\testeLocaliza.Domain.AssemblyInfoInputs.cache
+D:\Estudos\Localiza\testeLocaliza\testeLocaliza.Domain\obj\Debug\netcoreapp3.1\testeLocaliza.Domain.AssemblyInfo.cs
+D:\Estudos\Localiza\testeLocaliza\testeLocaliza.Domain\obj\Debug\netcoreapp3.1\testeLocaliza.Domain.csproj.CoreCompileInputs.cache
+D:\Estudos\Localiza\testeLocaliza\testeLocaliza.Domain\obj\Debug\netcoreapp3.1\testeLocaliza.Domain.dll
+D:\Estudos\Localiza\testeLocaliza\testeLocaliza.Domain\obj\Debug\netcoreapp3.1\testeLocaliza.Domain.pdb
+D:\Estudos\Localiza\testeLocaliza\testeLocaliza.Domain\obj\Debug\netcoreapp3.1\testeLocaliza.Domain.csprojAssemblyReference.cache

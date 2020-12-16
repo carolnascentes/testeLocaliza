@@ -1,0 +1,48 @@
+2020-12-16 17:31:51.7793||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2020-12-16 17:31:52.2256||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2020-12-16 17:31:52.2398||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Estudos\Localiza\testeLocaliza\testeLocaliza.WebApi 
+2020-12-16 17:34:06.3772||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2020-12-16 17:34:07.0440||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2020-12-16 17:34:07.1615||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Estudos\Localiza\testeLocaliza\testeLocaliza.WebApi 
+2020-12-16 17:34:10.6666||ERROR|testeLocaliza.WebApi.Controllers.FuncoesDivisorController|System.Exception: teste
+   at testeLocaliza.WebApi.Controllers.FuncoesDivisorController.Obter(Int32 numero) in D:\Estudos\Localiza\testeLocaliza\testeLocaliza.WebApi\Controllers\FuncoesDivisorController.cs:line 22 System.Exception: teste
+   at testeLocaliza.WebApi.Controllers.FuncoesDivisorController.Obter(Int32 numero) in D:\Estudos\Localiza\testeLocaliza\testeLocaliza.WebApi\Controllers\FuncoesDivisorController.cs:line 22
+2020-12-16 17:34:10.6666||ERROR|testeLocaliza.WebApi.Controllers.FuncoesDivisorController|System.Exception: teste
+   at testeLocaliza.WebApi.Controllers.FuncoesDivisorController.Obter(Int32 numero) in D:\Estudos\Localiza\testeLocaliza\testeLocaliza.WebApi\Controllers\FuncoesDivisorController.cs:line 22 System.Exception: teste
+   at testeLocaliza.WebApi.Controllers.FuncoesDivisorController.Obter(Int32 numero) in D:\Estudos\Localiza\testeLocaliza\testeLocaliza.WebApi\Controllers\FuncoesDivisorController.cs:line 22|url: https://localhost/FuncoesDivisor/Obter/2|action: Obter
+2020-12-16 17:46:21.3042||ERROR|testeLocaliza.WebApi.Controllers.FuncoesDivisorController|System.Exception: teste
+   at testeLocaliza.WebApi.Controllers.FuncoesDivisorController.Obter(Int32 numero) in D:\Estudos\Localiza\testeLocaliza\testeLocaliza.WebApi\Controllers\FuncoesDivisorController.cs:line 22 System.Exception: teste
+   at testeLocaliza.WebApi.Controllers.FuncoesDivisorController.Obter(Int32 numero) in D:\Estudos\Localiza\testeLocaliza\testeLocaliza.WebApi\Controllers\FuncoesDivisorController.cs:line 22
+2020-12-16 17:46:21.3042||ERROR|testeLocaliza.WebApi.Controllers.FuncoesDivisorController|System.Exception: teste
+   at testeLocaliza.WebApi.Controllers.FuncoesDivisorController.Obter(Int32 numero) in D:\Estudos\Localiza\testeLocaliza\testeLocaliza.WebApi\Controllers\FuncoesDivisorController.cs:line 22 System.Exception: teste
+   at testeLocaliza.WebApi.Controllers.FuncoesDivisorController.Obter(Int32 numero) in D:\Estudos\Localiza\testeLocaliza\testeLocaliza.WebApi\Controllers\FuncoesDivisorController.cs:line 22|url: https://localhost/FuncoesDivisor/Obter/2|action: Obter
+2020-12-16 17:56:20.0212||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2020-12-16 17:56:20.3967||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2020-12-16 17:56:20.4835||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Estudos\Localiza\testeLocaliza\testeLocaliza.WebApi 
+2020-12-16 17:56:36.5978||ERROR|testeLocaliza.WebApi.Controllers.FuncoesDivisorController|System.Exception: teste
+   at testeLocaliza.WebApi.Controllers.FuncoesDivisorController.Obter(Int32 numero) in D:\Estudos\Localiza\testeLocaliza\testeLocaliza.WebApi\Controllers\FuncoesDivisorController.cs:line 20 System.Exception: teste
+   at testeLocaliza.WebApi.Controllers.FuncoesDivisorController.Obter(Int32 numero) in D:\Estudos\Localiza\testeLocaliza\testeLocaliza.WebApi\Controllers\FuncoesDivisorController.cs:line 20
+2020-12-16 17:58:11.5493||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2020-12-16 17:58:11.6478||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2020-12-16 17:58:11.6625||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Estudos\Localiza\testeLocaliza\testeLocaliza.WebApi 
+2020-12-16 17:58:38.2044||ERROR|testeLocaliza.WebApi.Controllers.FuncoesDivisorController|System.Exception: teste
+   at testeLocaliza.WebApi.Controllers.FuncoesDivisorController.Obter(Int32 numero) in D:\Estudos\Localiza\testeLocaliza\testeLocaliza.WebApi\Controllers\FuncoesDivisorController.cs:line 20 System.Exception: teste
+   at testeLocaliza.WebApi.Controllers.FuncoesDivisorController.Obter(Int32 numero) in D:\Estudos\Localiza\testeLocaliza\testeLocaliza.WebApi\Controllers\FuncoesDivisorController.cs:line 20
+2020-12-16 18:00:11.5709||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2020-12-16 18:00:11.7054||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2020-12-16 18:00:11.7283||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Estudos\Localiza\testeLocaliza\testeLocaliza.WebApi 
+2020-12-16 18:00:38.3471||ERROR|testeLocaliza.WebApi.Controllers.FuncoesDivisorController|System.Exception: teste
+   at testeLocaliza.WebApi.Controllers.FuncoesDivisorController.Obter(Int32 numero) in D:\Estudos\Localiza\testeLocaliza\testeLocaliza.WebApi\Controllers\FuncoesDivisorController.cs:line 20 System.Exception: teste
+   at testeLocaliza.WebApi.Controllers.FuncoesDivisorController.Obter(Int32 numero) in D:\Estudos\Localiza\testeLocaliza\testeLocaliza.WebApi\Controllers\FuncoesDivisorController.cs:line 20
+2020-12-16 18:01:36.2278||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2020-12-16 18:01:36.2743||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2020-12-16 18:01:36.2854||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Estudos\Localiza\testeLocaliza\testeLocaliza.WebApi 
+2020-12-16 18:01:39.3507||ERROR|testeLocaliza.WebApi.Controllers.FuncoesDivisorController|System.Exception: teste
+   at testeLocaliza.WebApi.Controllers.FuncoesDivisorController.Obter(Int32 numero) in D:\Estudos\Localiza\testeLocaliza\testeLocaliza.WebApi\Controllers\FuncoesDivisorController.cs:line 21 System.Exception: teste
+   at testeLocaliza.WebApi.Controllers.FuncoesDivisorController.Obter(Int32 numero) in D:\Estudos\Localiza\testeLocaliza\testeLocaliza.WebApi\Controllers\FuncoesDivisorController.cs:line 21
+2020-12-16 18:04:06.9660||System.Exception: teste
+   at testeLocaliza.WebApi.Controllers.FuncoesDivisorController.Obter(Int32 numero) in D:\Estudos\Localiza\testeLocaliza\testeLocaliza.WebApi\Controllers\FuncoesDivisorController.cs:line 21
+2020-12-16 18:07:09.3961||System.Exception: teste
+   at testeLocaliza.WebApi.Controllers.FuncoesDivisorController.Obter(Int32 numero) in D:\Estudos\Localiza\testeLocaliza\testeLocaliza.WebApi\Controllers\FuncoesDivisorController.cs:line 21
+2020-12-16 18:08:17.9097||System.Exception: teste
+   at testeLocaliza.WebApi.Controllers.FuncoesDivisorController.Obter(Int32 numero) in D:\Estudos\Localiza\testeLocaliza\testeLocaliza.WebApi\Controllers\FuncoesDivisorController.cs:line 21

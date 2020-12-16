@@ -1,0 +1,8 @@
+2020-12-16 17:56:36.5978||System.Exception: teste
+   at testeLocaliza.WebApi.Controllers.FuncoesDivisorController.Obter(Int32 numero) in D:\Estudos\Localiza\testeLocaliza\testeLocaliza.WebApi\Controllers\FuncoesDivisorController.cs:line 20
+2020-12-16 17:58:38.2044||System.Exception: teste
+   at testeLocaliza.WebApi.Controllers.FuncoesDivisorController.Obter(Int32 numero) in D:\Estudos\Localiza\testeLocaliza\testeLocaliza.WebApi\Controllers\FuncoesDivisorController.cs:line 20
+2020-12-16 18:00:38.3471||System.Exception: teste
+   at testeLocaliza.WebApi.Controllers.FuncoesDivisorController.Obter(Int32 numero) in D:\Estudos\Localiza\testeLocaliza\testeLocaliza.WebApi\Controllers\FuncoesDivisorController.cs:line 20
+2020-12-16 18:01:39.3507||System.Exception: teste
+   at testeLocaliza.WebApi.Controllers.FuncoesDivisorController.Obter(Int32 numero) in D:\Estudos\Localiza\testeLocaliza\testeLocaliza.WebApi\Controllers\FuncoesDivisorController.cs:line 21

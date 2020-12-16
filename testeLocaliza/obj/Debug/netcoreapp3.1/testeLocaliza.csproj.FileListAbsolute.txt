@@ -1,0 +1,16 @@
+D:\Estudos\Localiza\testeLocaliza\testeLocaliza\bin\Debug\netcoreapp3.1\testeLocaliza.exe
+D:\Estudos\Localiza\testeLocaliza\testeLocaliza\bin\Debug\netcoreapp3.1\testeLocaliza.deps.json
+D:\Estudos\Localiza\testeLocaliza\testeLocaliza\bin\Debug\netcoreapp3.1\testeLocaliza.runtimeconfig.json
+D:\Estudos\Localiza\testeLocaliza\testeLocaliza\bin\Debug\netcoreapp3.1\testeLocaliza.runtimeconfig.dev.json
+D:\Estudos\Localiza\testeLocaliza\testeLocaliza\bin\Debug\netcoreapp3.1\testeLocaliza.dll
+D:\Estudos\Localiza\testeLocaliza\testeLocaliza\bin\Debug\netcoreapp3.1\testeLocaliza.pdb
+D:\Estudos\Localiza\testeLocaliza\testeLocaliza\bin\Debug\netcoreapp3.1\testeLocaliza.Domain.dll
+D:\Estudos\Localiza\testeLocaliza\testeLocaliza\bin\Debug\netcoreapp3.1\testeLocaliza.Domain.pdb
+D:\Estudos\Localiza\testeLocaliza\testeLocaliza\obj\Debug\netcoreapp3.1\testeLocaliza.csprojAssemblyReference.cache
+D:\Estudos\Localiza\testeLocaliza\testeLocaliza\obj\Debug\netcoreapp3.1\testeLocaliza.AssemblyInfoInputs.cache
+D:\Estudos\Localiza\testeLocaliza\testeLocaliza\obj\Debug\netcoreapp3.1\testeLocaliza.AssemblyInfo.cs
+D:\Estudos\Localiza\testeLocaliza\testeLocaliza\obj\Debug\netcoreapp3.1\testeLocaliza.csproj.CoreCompileInputs.cache
+D:\Estudos\Localiza\testeLocaliza\testeLocaliza\obj\Debug\netcoreapp3.1\testeLocaliza.csproj.CopyComplete
+D:\Estudos\Localiza\testeLocaliza\testeLocaliza\obj\Debug\netcoreapp3.1\testeLocaliza.dll
+D:\Estudos\Localiza\testeLocaliza\testeLocaliza\obj\Debug\netcoreapp3.1\testeLocaliza.pdb
+D:\Estudos\Localiza\testeLocaliza\testeLocaliza\obj\Debug\netcoreapp3.1\testeLocaliza.genruntimeconfig.cache
