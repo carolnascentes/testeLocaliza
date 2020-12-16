@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using NLog;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using testeLocaliza.Domain;
 using testeLocaliza.WebApi.Models;
@@ -21,27 +22,17 @@ namespace testeLocaliza.WebApi.Controllers
 
                 var result = funcoes.ObtemDivisores(numero);
 
-                if (result.Excecao != null)
-                {
-                    return BadRequest(result.Excecao.Message);
-                }
+                var gerouExcecao = ValidarRetorno(result, false);
 
-                if (result.Data == null || !result.Data.Any())
-                {
-                    return BadRequest("Não foram encontrados Divisores");
-                }
+                if (gerouExcecao != null)
+                    return gerouExcecao;
 
                 var resultPrimos = funcoes.ObtemDivisoresPrimos(result.Data);
 
-                if (resultPrimos.Excecao != null)
-                {
-                    return BadRequest(resultPrimos.Excecao.Message);
-                }
+                gerouExcecao = ValidarRetorno(resultPrimos, true);
 
-                if (resultPrimos.Data == null || !resultPrimos.Data.Any())
-                {
-                    return BadRequest("Não foram encontrados Divisores Primos");
-                }
+                if (gerouExcecao != null)
+                    return gerouExcecao;
 
                 return Ok(new RetornaDadosModel(string.Join(';', result.Data), string.Join(';', resultPrimos.Data)));
             }
@@ -50,6 +41,21 @@ namespace testeLocaliza.WebApi.Controllers
                 LogManager.GetCurrentClassLogger().Error(ex);
                 return BadRequest("Erro interno. Favor tentar mais tarde");
             }
+        }
+
+        private BadRequestObjectResult ValidarRetorno(Result<List<int>> result, bool isPrimo)
+        {
+            if (result.Excecao != null)
+            {
+                return BadRequest(result.Excecao.Message);
+            }
+
+            if (result.Data == null || !result.Data.Any())
+            {
+                return BadRequest(isPrimo ? "Não foram encontrados Divisores Primos" : "Não foram encontrados Divisores");
+            }
+
+            return null;
         }
     }
 }

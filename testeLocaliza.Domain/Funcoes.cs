@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
+﻿using System.Collections.Generic;
 using testeLocaliza.Domain.Exceptions;
 
 namespace testeLocaliza.Domain
@@ -45,7 +43,10 @@ namespace testeLocaliza.Domain
 
         private static List<int> CalculaDivisores(int numero)
         {
-            List<int> divisores;
+            List<int> divisores = new List<int>();
+
+            if (numero == 0)
+                return divisores;
 
             if (numero < 0)
             {
@@ -63,9 +64,6 @@ namespace testeLocaliza.Domain
         {
             List<int> divisores = new List<int>();
 
-            if (numero == 0)
-                return divisores;
-
             for (int i = 1; i <= numero; i++)
             {
                 if (numero % i == 0)
@@ -81,9 +79,6 @@ namespace testeLocaliza.Domain
         private static List<int> CalculaDivisoresNumeroNegativo(int numero)
         {
             List<int> divisores = new List<int>();
-
-            if (numero == 0)
-                return divisores;
 
             for (int i = numero; i <= -1; ++i)
             {
